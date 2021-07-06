@@ -4,7 +4,7 @@
 
 ## Todos:
 <!--- icons for use here: ❌, ✅ --->
-* create a minimal page with HTML ❌
+* create a minimal page with HTML ✅
 * get the data from server ❌
 * make all fields editable ❌
 * add an appropriate design ❌

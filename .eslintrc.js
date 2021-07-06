@@ -3,14 +3,11 @@ module.exports = {
     es6: true,
     node: true,
   },
-  extends: ["eslint:recommended", "google", "plugin:prettier/recommended"],
+  extends: ["prettier", "eslint:recommended", "google", "plugin:prettier/recommended"],
   ignorePatterns: ["dist/**/*"],
   overrides: [
     {
-      extends: [
-        "plugin:@typescript-eslint/recommended",
-        "plugin:@typescript-eslint/recommended-requiring-type-checking",
-      ],
+      extends: ["plugin:@typescript-eslint/recommended", "plugin:@typescript-eslint/recommended-requiring-type-checking"],
       files: ["*.ts", "*.tsx"],
       parser: "@typescript-eslint/parser",
       parserOptions: {
@@ -51,14 +48,7 @@ module.exports = {
       "error",
       {
         alphabetize: { order: "asc" },
-        groups: [
-          "builtin",
-          "external",
-          "internal",
-          "parent",
-          "sibling",
-          "index",
-        ],
+        groups: ["builtin", "external", "internal", "parent", "sibling", "index"],
         "newlines-between": "always",
       },
     ],
