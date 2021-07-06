@@ -1,7 +1,3 @@
-import React from 'react';
-
-function App() {
+export function App(): React.ReactElement {
   return <div>home</div>;
 }
-
-export default App;
