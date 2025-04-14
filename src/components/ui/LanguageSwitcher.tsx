@@ -10,7 +10,7 @@ export function LanguageSwitcher() {
       onClick={() => {
         setLanguage(language === 'en' ? 'fa' : 'en');
       }}
-      className="inline-flex items-center justify-center py-1 px-3 rounded-md text-gray-600 hover:text-blue-600 transition"
+      className="inline-flex items-center justify-center py-1 px-3 rounded-md text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition"
       aria-label={language === 'en' ? 'Switch to Persian' : 'Switch to English'}
     >
       <GlobeIcon className="h-5 w-5 mr-1" />
