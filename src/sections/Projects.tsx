@@ -28,7 +28,7 @@ export function Projects() {
   ];
 
   return (
-    <section id="projects" className="py-16 md:py-24 bg-gray-100 scroll-mt-16">
+    <section id="projects" className="py-16 md:py-24 bg-gray-100 dark:bg-gray-900 scroll-mt-16">
       <div className="container mx-auto px-6">
         <SectionTitle>{t.myProjects}</SectionTitle>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

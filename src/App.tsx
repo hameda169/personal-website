@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import { Footer } from './components/layout/Footer';
 import { Header } from './components/layout/Header';
 import { LanguageProvider, useTranslation } from './contexts/LanguageContext';
+import { ThemeProvider } from './contexts/ThemeContext';
 import { About } from './sections/About';
 import { Contact } from './sections/Contact';
 import { Experience } from './sections/Experience';
@@ -15,7 +16,9 @@ function AppContent() {
   const { isRTL } = useTranslation();
 
   return (
-    <div className={`bg-gray-50 text-gray-800 antialiased font-sans ${isRTL ? 'font-farsi' : 'font-sans'}`}>
+    <div
+      className={`bg-gray-50 text-gray-800 dark:bg-gray-900 dark:text-gray-200 antialiased font-sans ${isRTL ? 'font-farsi' : 'font-sans'}`}
+    >
       <Header />
       <main>
         <Hero />
@@ -44,8 +47,10 @@ export function App() {
   }, []);
 
   return (
-    <LanguageProvider>
-      <AppContent />
-    </LanguageProvider>
+    <ThemeProvider>
+      <LanguageProvider>
+        <AppContent />
+      </LanguageProvider>
+    </ThemeProvider>
   );
 }

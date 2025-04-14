@@ -6,7 +6,7 @@ export function About() {
   const { isRTL, t } = useTranslation();
 
   return (
-    <section id="about" className="py-16 md:py-24 bg-white scroll-mt-16">
+    <section id="about" className="py-16 md:py-24 bg-white dark:bg-gray-800 scroll-mt-16">
       <div
         className={`container mx-auto px-6 flex flex-col md:flex-row items-center gap-8 md:gap-12 ${isRTL ? 'md:flex-row-reverse' : ''}`}
       >
@@ -23,10 +23,10 @@ export function About() {
           />
         </div>
         <div className="md:w-2/3 text-left">
-          <h2 className="text-3xl font-bold mb-4 text-gray-800">{t.aboutMe}</h2>
-          <p className="text-gray-600 leading-relaxed mb-4">{t.aboutText1}</p>
-          <p className="text-gray-600 leading-relaxed mb-4">{t.aboutText2}</p>
-          <p className="text-gray-600 leading-relaxed">{t.aboutText3}</p>
+          <h2 className="text-3xl font-bold mb-4 text-gray-800 dark:text-gray-200">{t.aboutMe}</h2>
+          <p className="text-gray-600 dark:text-gray-400 leading-relaxed mb-4">{t.aboutText1}</p>
+          <p className="text-gray-600 dark:text-gray-400 leading-relaxed mb-4">{t.aboutText2}</p>
+          <p className="text-gray-600 dark:text-gray-400 leading-relaxed">{t.aboutText3}</p>
         </div>
       </div>
     </section>

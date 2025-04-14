@@ -36,7 +36,7 @@ export function Experience() {
   ];
 
   return (
-    <section id="experience" className="py-16 md:py-24 bg-white scroll-mt-16">
+    <section id="experience" className="py-16 md:py-24 bg-white dark:bg-gray-800 scroll-mt-16">
       <div className="container mx-auto px-6">
         <SectionTitle>{t.workExperience}</SectionTitle>
         <div className="max-w-3xl mx-auto">
@@ -47,7 +47,7 @@ export function Experience() {
             <a
               href="[Link_To_Your_Resume.pdf]"
               download="YourName_Resume.pdf"
-              className="bg-blue-600 text-white font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-blue-700 transition duration-300 inline-flex items-center"
+              className="bg-blue-600 text-white font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-blue-700 dark:bg-blue-700 dark:hover:bg-blue-800 transition duration-300 inline-flex items-center"
             >
               {t.downloadResume} <Download className={`${isRTL ? 'mr-2' : 'ml-2'} h-5 w-5`} />
             </a>
