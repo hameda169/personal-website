@@ -16,7 +16,7 @@ export function Header() {
     <header className="bg-white shadow-sm sticky top-0 z-10 dark:bg-gray-800 dark:shadow-md">
       <nav className="container mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
-          <div className="text-2xl font-bold text-blue-600 dark:text-blue-400">Your Name</div>
+          <div className="text-2xl font-bold text-blue-600 dark:text-blue-400">{t.name}</div>
 
           {/* Mobile menu button */}
           <button

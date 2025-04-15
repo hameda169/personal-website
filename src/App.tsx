@@ -16,9 +16,7 @@ function AppContent() {
   const { isRTL } = useTranslation();
 
   return (
-    <div
-      className={`bg-gray-50 text-gray-800 dark:bg-gray-900 dark:text-gray-200 antialiased font-sans ${isRTL ? 'font-farsi' : 'font-sans'}`}
-    >
+    <div className={`bg-gray-50 text-gray-800 dark:bg-gray-900 dark:text-gray-200 antialiased ${isRTL ? 'font-vazir' : 'font-sans'}`}>
       <Header />
       <main>
         <Hero />

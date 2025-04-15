@@ -1,3 +1,18 @@
 @import 'tailwindcss';
 
 @custom-variant dark (&:where(.dark, .dark *));
+
+@font-face {
+  font-family: 'Vazir';
+  /* Choose a name for your font */
+  src: url('/fonts/Vazir.ttf') format('truetype');
+  /* Path relative to the public directory */
+  font-weight: normal;
+  /* Or specify weight if needed */
+  font-style: normal;
+  /* Or specify style if needed */
+}
+
+@theme {
+  --font-vazir: 'Vazir', serif;
+}

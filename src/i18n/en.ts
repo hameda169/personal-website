@@ -6,18 +6,22 @@ export const en = {
   projects: 'Projects',
   contact: 'Contact',
 
+  // Header
+  name: 'Hamed Aghabalazadeh',
+
   // Hero
-  greeting: "Hi, I'm [Your Name]",
-  jobTitle: 'Software Developer | [Your Specialization]',
+  greeting: "Hi, I'm Hamed Aghabalazadeh",
+  jobTitle: 'Senior Frontend Developer | Specializing in React, TypeScript, and building high-quality, testable web applications.',
   viewWork: 'View My Work',
 
   // About
   aboutMe: 'About Me',
   aboutText1:
-    "Welcome to my corner of the internet! I'm a passionate Software Developer specializing in [mention your key interests or skills].",
+    "I'm a Senior Frontend Developer driven by a passion for problem-solving and crafting high-quality, testable web applications. My journey started with a strong analytical foundation in competitive programming and computer engineering.",
   aboutText2:
-    'I thrive on solving complex problems and continuously learning new technologies. Here you can find details about my skills, experience, and projects. Feel free to look around and reach out!',
-  aboutText3: '[Add another paragraph about your specific technical philosophy, career goals, or unique background.]',
+    'I thrive on tackling complex challenges and continuously expanding my skillset. From learning React and React Native during my internship to championing TypeScript adoption and mastering CI/CD pipelines in my professional roles, I embrace opportunities for growth and technical leadership.',
+  aboutText3:
+    'Beyond my professional work, I actively explore new technologies through personal projects, constantly seeking ways to innovate and improve. You can explore my skills, experiences, and projects throughout this site.',
 
   // Skills
   technicalSkills: 'Technical Skills',

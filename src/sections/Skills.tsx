@@ -12,17 +12,36 @@ export function Skills() {
     {
       title: t.programmingLanguages,
       icon: Code,
-      skills: ['JavaScript (ES6+)', 'Python', 'Java', 'HTML5 & CSS3', 'SQL', '[Add More]'],
+      skills: ['TypeScript', 'JavaScript (ES6+)', 'Python', 'HTML5', 'CSS3'],
     },
     {
       title: t.frameworksLibraries,
       icon: Library,
-      skills: ['React', 'Node.js', 'Spring Boot', 'Django / Flask', 'Tailwind CSS', '[Add More]'],
+      skills: [
+        'React',
+        'React Native',
+        'Next.js',
+        'Express.js',
+        'MobX / MobX State Tree',
+        'React Testing Library',
+        'Jest',
+        'Telegraf / GramJS',
+        'Socket.IO',
+        'TypeORM / Prisma',
+      ],
     },
     {
       title: t.toolsPlatforms,
       icon: Terminal,
-      skills: ['Git & GitHub', 'Docker', 'AWS / Azure / GCP', 'PostgreSQL / MySQL', 'Jira', '[Add More]'],
+      skills: [
+        'Git & GitLab CI/CD',
+        'Docker',
+        'Node.js',
+        'PostgreSQL / SQLite',
+        'Linux / Bash',
+        'ESLint / Prettier',
+        'Shopify Apps / BigCommerce Apps',
+      ],
     },
   ];
 

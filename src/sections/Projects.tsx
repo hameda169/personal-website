@@ -8,22 +8,22 @@ export function Projects() {
   // Project data
   const projects = [
     {
-      title: 'Project Title 1',
-      description: 'Brief description using React, Node.js, PostgreSQL.',
-      imageUrl: 'https://placehold.co/600x400/3b82f6/ffffff?text=Project+1', // Default blue
-      link: '#',
+      title: 'Personal Website',
+      description: 'This very portfolio website, built with React, TypeScript, Tailwind CSS, and Vite.',
+      imageUrl: 'https://placehold.co/600x400/6366f1/ffffff?text=Website', // Placeholder
+      link: 'https://github.com/hameda169/personal-website',
     },
     {
-      title: 'Project Title 2',
-      description: 'Brief description using Python, Django, AWS.',
-      imageUrl: 'https://placehold.co/600x400/10b981/ffffff?text=Project+2', // Default green (emerald)
-      link: '#',
+      title: 'Todo List App',
+      description: 'A functional Todo List application built with Next.js and TypeScript.',
+      imageUrl: 'https://placehold.co/600x400/3b82f6/ffffff?text=Todo+List', // Placeholder
+      link: 'https://github.com/hameda169/todo-list',
     },
     {
-      title: 'Project Title 3',
-      description: 'Brief description using Java, Spring Boot, Docker.',
-      imageUrl: 'https://placehold.co/600x400/f59e0b/ffffff?text=Project+3', // Default yellow (amber)
-      link: '#',
+      title: 'ERC20 Token Management',
+      description: 'A project demonstrating interactions or management related to ERC20 tokens, built with TypeScript.',
+      imageUrl: 'https://placehold.co/600x400/10b981/ffffff?text=ERC20', // Placeholder
+      link: 'https://github.com/hameda169/erc20-token-management',
     },
   ];
 
