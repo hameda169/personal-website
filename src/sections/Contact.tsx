@@ -8,11 +8,11 @@ export function Contact() {
 
   // Contact links
   const contactLinks = [
-    { label: 'Email', href: 'mailto:your.email@example.com', icon: Mail },
+    { label: 'Email', href: 'mailto:169hamed@gmail.com', icon: Mail },
     // eslint-disable-next-line @typescript-eslint/no-deprecated
-    { label: 'LinkedIn', href: '#', icon: Linkedin },
+    { label: 'LinkedIn', href: 'https://www.linkedin.com/in/hameda169/', icon: Linkedin },
     // eslint-disable-next-line @typescript-eslint/no-deprecated
-    { label: 'GitHub', href: '#', icon: Github },
+    { label: 'GitHub', href: 'https://github.com/hameda169', icon: Github },
   ];
 
   return (

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useLayoutEffect } from 'react';
 
 import type { Language } from './types';
 
@@ -15,12 +15,10 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
 
   const isRTL = language === 'fa';
 
-  useEffect(() => {
-    // Set dir attribute on html element
-    document.documentElement.dir = isRTL ? 'rtl' : 'ltr';
-
-    // Set lang attribute on html element
-    document.documentElement.lang = language;
+  useLayoutEffect(() => {
+    // Set dir and lang attributes on html element
+    document.documentElement.setAttribute('dir', isRTL ? 'rtl' : 'ltr');
+    document.documentElement.setAttribute('lang', language);
 
     // Save language preference to localStorage
     localStorage.setItem('language', language);
