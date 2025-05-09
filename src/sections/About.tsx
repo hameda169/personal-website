@@ -10,7 +10,7 @@ export function About() {
       <div className={`container mx-auto px-6 flex flex-col md:flex-row items-center gap-8 md:gap-12`}>
         <div className="md:w-1/3 text-center flex-shrink-0">
           <img
-            src="/image.png"
+            src="/profile-image.png"
             alt="Your Name"
             className="rounded-full shadow-lg mx-auto w-48 h-48 md:w-64 md:h-64 object-cover"
             onError={(e: React.SyntheticEvent<HTMLImageElement>) => {
